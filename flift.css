@@ -1,0 +1,88 @@
+* {
+	box-sizing: border-box;
+}
+header {
+    color: #333b07;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(images/forklift1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+body {
+    background-image: linear-gradient(to bottom, #f3b982, #d8f891);
+    color: #A11B8F;
+    text-align: center;
+}
+h1 {
+    background-color: #e78f3c;
+}
+li {
+    color: rgb(65, 68, 241);
+}
+nav {
+    float: left;
+    font-weight: bold;
+    padding: 1em;
+    font-size: 130%;
+    width: 150px;
+    height: 1000px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #f3b982, #d8f891)
+}
+nav a {
+    text-decoration: none;
+}
+nav a:link {
+    color:#333b07;
+}
+nav a:visited {
+    color:black;
+}
+nav a:hover {
+    color: red;
+}
+footer {
+    text-align: center;
+}
+img {
+    float: right;
+}
+table {
+	border: 4px solid #cc6333;
+	border-collapse: separate;
+    font-size: 1.6em;
+    text-align: center;
+    float: inline-start;
+}
+td {
+	padding: 0.5em;
+	border: 2px solid #cc3333;
+	text-align: center;
+    color:darkblue;
+}
+th {
+	padding: 0.5em;
+	border: 3px solid #cc3333;
+    color:darkblue;
+}
+label {
+	float: left;
+	display: block;
+	text-align: center;
+	width: 150px;
+	padding-right: 10px;
+}
+input {
+	display: block;
+	margin-bottom: 15px;
+    text-align: center;
+}
+input[type="submit"] {
+	margin-left: 10px;
+}
+textarea {
+	display: block;
+	margin-bottom: 20px;
+}
